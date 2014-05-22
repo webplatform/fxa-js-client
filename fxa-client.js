@@ -1909,6 +1909,9 @@ define('client/FxAccountClient',['./lib/request', 'sjcl', 'p', './lib/credential
                 'Accept-Language': options.lang
               };
             }
+
+            data.username = options.username; // Specific to WebPlatform.org
+            data.fullName = options.fullName; // ^
           }
 
           return self.request.send(endpoint, 'POST', null, data, requestOpts);
