@@ -90,6 +90,9 @@ define(['./lib/request', 'sjcl', 'p', './lib/credentials', './lib/hawkCredential
                 'Accept-Language': options.lang
               };
             }
+
+            data.username = options.username; // Specific to WebPlatform.org
+            data.fullName = options.fullName; // ^
           }
 
           return self.request.send(endpoint, 'POST', null, data, requestOpts);

@@ -1,6 +1,6 @@
 {
   "name": "fxa-js-client",
-  "version": "0.1.20",
+  "version": "0.1.20-wpd",
   "description": "Web client that talks to the Firefox Accounts API server",
   "author": "Mozilla",
   "license": "MPL 2.0",
@@ -18,16 +18,16 @@
     "LICENSE"
   ],
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/mozilla/fxa-js-client",
+  "homepage": "https://github.com/webplatform/fxa-js-client",
   "engines": {
     "node": "0.10.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla/fxa-js-client.git"
+    "url": "https://github.com/webplatform/fxa-js-client.git"
   },
   "bugs": {
-    "url": "https://github.com/mozilla/fxa-js-client/issues"
+    "url": "https://github.com/webplatform/fxa-js-client/issues"
   },
   "dependencies": {
     "p-promise": "~0.2.5",
